@@ -1,4 +1,12 @@
-# DataScIIEnce - Sessions templates
+
+<p align="center">
+<img src="https://datasciience-ensiie.github.io/assets/img/logo_DS_transparent_alt.png" width="150"/>
+</p>
+
+<img src="https://img.shields.io/static/v1?label=DataScIIEnce&message=Associative project&color=007bff"/>&nbsp;&nbsp;<img src="https://img.shields.io/static/v1?label=Languages&message=Markdown, Pandoc, LaTeX&color=ff0000"/>&nbsp;&nbsp;<img src="https://img.shields.io/static/v1?label=Restriction&message=Open to public&color=26c601"/>
+
+
+# DataScIIEnce - Session templates (Beamer & Report)
 
 ## Introduction
 
