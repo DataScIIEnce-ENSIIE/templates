@@ -10,6 +10,17 @@
 
 ## Introduction
 
+- Export the default Beamer template
+```bash
+pandoc -D beamer >> template_beamer.latex
+```
+
+- Export the default LaTeX template
+```bash
+pandoc -D latex >> template_latex.latex
+```
+
+
 ### Export the final document
 
 For production use only, it can be relevant to export the raw Markdown file to a more *user-friendly*, printable document format such as HTML or PDF.
