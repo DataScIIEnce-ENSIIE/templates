@@ -19,10 +19,11 @@ pandoc \
     --metadata lang="fr-FR" \
     --metadata section-titles="false" \
     --metadata toc="false" \
-    --metadata titlegraphic="img/logo_DS_alt-alt.png" \
+    \
     --metadata toc-title="test" \
     -t beamer \
-    --metadata theme="Dresden" #-V toc-title:"Sommaire " \
+    --metadata theme="Dresden" #--metadata titlegraphic="img/logo_DS_alt-alt.png" \
+#-V toc-title:"Sommaire " \
 #--metadata papersize="a4" \
 #--metadata classoption="landscape, twocolumn" \
 #--metadata geometry="top=20mm, bottom=20mm, left=20mm, right=20mm" \
