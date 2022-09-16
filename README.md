@@ -20,7 +20,6 @@ pandoc -D beamer >> template_beamer.latex
 pandoc -D latex >> template_latex.latex
 ```
 
-
 ### Export the final document
 
 For production use only, it can be relevant to export the raw Markdown file to a more *user-friendly*, printable document format such as HTML or PDF.
@@ -45,9 +44,6 @@ sh export.sh
 ## License & Authors
 
 - Development start date : Aug. 2022
+- [Lucas RODRIGUEZ](https://lcsrodriguez.github.io/)
 
 Copyright &copy; 2022 DataScIIEnce. All rights reserved.
-
-- Initial development & Maintener
-    - Check the header from [GUIDE.md](GUIDE.md) for the authors details
-- Other resources : all rights to respective authors
