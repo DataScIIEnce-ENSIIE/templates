@@ -5,11 +5,11 @@ echo "Exporting file"
 # Global variables
 EXPORT_FOLDER="export/"
 EXPORT_FILE="out.pdf"
-EXPORT_TEMPLATE="template.latex"
+EXPORT_TEMPLATE="template_beamer.latex"
 
 # Export command
 pandoc \
-    -s GUIDE.md -o $EXPORT_FOLDER/$EXPORT_FILE \
+    -s main.md -o $EXPORT_FOLDER/$EXPORT_FILE \
     -V colorlinks=true \
     -V linkcolor=blue \
     -V urlcolor=red \
