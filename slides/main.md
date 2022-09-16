@@ -30,7 +30,9 @@ Normal text.
 ### This is a block A
 
 - Line A
-- Line B
+- Line B $\phi$
+
+$$f(x)$$
 
 ### 
 

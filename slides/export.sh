@@ -15,15 +15,14 @@ pandoc \
     --metadata date="Date du document" \
     --metadata colorlinks="true" \
     --metadata linkcolor="red" \
-    --metadata urlcolor="blue" \
-    \
-    --metadata lang="en-US" \
+    --metadata urlcolor="red" \
+    --metadata lang="fr-FR" \
     --metadata section-titles="false" \
-    --metadata toc="true" \
+    --metadata toc="false" \
     --metadata titlegraphic="img/logo_DS_alt-alt.png" \
-    \
-    -t beamer #-V toc-title:"Sommaire " \
-#--metadata theme="Berlin" \
+    --metadata toc-title="test" \
+    -t beamer \
+    --metadata theme="Dresden" #-V toc-title:"Sommaire " \
 #--metadata papersize="a4" \
 #--metadata classoption="landscape, twocolumn" \
 #--metadata geometry="top=20mm, bottom=20mm, left=20mm, right=20mm" \
