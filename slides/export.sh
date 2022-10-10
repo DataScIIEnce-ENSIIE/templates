@@ -1,13 +1,17 @@
 # Developer: Lucas RODRIGUEZ
 
-echo "Exporting file"
+echo "Exporting file ..."
 
 # Global variables
 EXPORT_FOLDER="export/"
 EXPORT_FILE="out.pdf"
-EXPORT_TEMPLATE="template_beamer.latex"
 
-# Export command
+# Specifying the export template ONLY if there is any significant modification
+# Be careful to put the `.latex` extension on the template file
+# A `.tex` extension won't work !!
+#EXPORT_TEMPLATE="template_beamer.latex"
+
+# Export command with parameters
 pandoc \
     -s main.md -o $EXPORT_FOLDER/$EXPORT_FILE \
     --metadata title="Titre du document" \
@@ -19,15 +23,9 @@ pandoc \
     --metadata lang="fr-FR" \
     --metadata section-titles="false" \
     --metadata toc="false" \
-    \
     --metadata toc-title="test" \
     -t beamer \
-    --metadata theme="Dresden" #--metadata titlegraphic="img/logo_DS_alt-alt.png" \
-#-V toc-title:"Sommaire " \
-#--metadata papersize="a4" \
-#--metadata classoption="landscape, twocolumn" \
-#--metadata geometry="top=20mm, bottom=20mm, left=20mm, right=20mm" \
-#--template=$EXPORT_FOLDER/$EXPORT_TEMPLATE
+    --metadata theme="Dresden"
 
 # Good bye
 echo "Export done"
